@@ -1,0 +1,35 @@
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1, #00c7c7 100%);
+    text-align: center;
+    min-height: 100vh;
+    display: flex; /* todos os elementos filhos alinhados lado a lado */
+    /* align-items:center;  /* todos os elementos atingidos por display:flex serão centralizados na vertical */
+  }
+  
+  #container {
+    margin: auto; /* [centralização vertical e horizontal] */
+    width: 90%;
+  }
+  
+  .location,
+  h1,
+  .visit p {
+    height: 16vh; /* vh [view port height] */
+  }
+  
+  .visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffc666;
+    border: none;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center; /* alinhamento vertical no display flex */
+    justify-content: center; /* alinhamento horizontal no display flex */
+    margin:auto; /* alinhamento vertical e horizontal dentro da section class visit */
+    transition: background 1000ms; /* trasição aplicada a propriedade hover abaixo */
+ }
+
+  .visit a:hover{
+      background: #96feff;
+  }
